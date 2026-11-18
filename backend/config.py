@@ -7,6 +7,8 @@ both locally (XAMPP) and on Railway cloud deployment.
 import os
 
 
+
+
 class Config:
     # Flask secret key — MUST be set as an env var in Railway
     SECRET_KEY = os.environ.get('SECRET_KEY', 'electrofix-dev-key-change-in-production')
